@@ -24,10 +24,7 @@ public class ProdutosDAO {
     
     public void cadastrarProduto (ProdutosDTO produto){
         
-        
         listagem.add(produto);
-        
-        
     }
     
     public ArrayList<ProdutosDTO> listarProdutos(){

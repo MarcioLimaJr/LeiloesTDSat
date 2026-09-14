@@ -23,7 +23,7 @@ public class ProdutosDAO {
     ArrayList<ProdutosDTO> listagem = new ArrayList<>();
     
     public void cadastrarProduto (ProdutosDTO produto){
-        
+         produto.setId(listagem.size() + 1);
         listagem.add(produto);
     }
     

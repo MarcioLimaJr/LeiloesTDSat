@@ -14,6 +14,7 @@ public class vendasDAO {
     private ArrayList<vendasDTO> listagem = new ArrayList<>();
 
     public void cadastrarVenda(vendasDTO venda) {
+         venda.setId(listagem.size() + 1);
         listagem.add(venda);
     }
 
